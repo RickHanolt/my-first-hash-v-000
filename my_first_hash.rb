@@ -9,3 +9,7 @@ def shipping_manifest
   the_manifest["oil paintings"] = 3
   the_manifest
 end
+
+def retrieval
+  shipping_manifest["oil paintings"]
+end
